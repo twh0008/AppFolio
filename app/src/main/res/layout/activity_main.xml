@@ -33,7 +33,7 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:minWidth="250dp"
-        android:onClick="sendMessage1" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
         android:minWidth="250dp"
         android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"
-        android:onClick="sendMessage2" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
         android:minWidth="250dp"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
-        android:onClick="sendMessage3" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
         android:layout_below="@+id/button3"
         android:layout_alignLeft="@+id/button3"
         android:layout_alignStart="@+id/button3"
-        android:onClick="sendMessage4" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
         android:minWidth="250dp"
         android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:onClick="sendMessage5" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="wrap_content"
@@ -84,5 +84,5 @@
         android:minWidth="250dp"
         android:layout_below="@+id/button5"
         android:layout_centerHorizontal="true"
-        android:onClick="sendMessage6" />
+        android:onClick="sendMessage" />
 </RelativeLayout>
